@@ -9,6 +9,8 @@ namespace Demo_01
             MessageWriter MyWriter = new MessageWriter();
             MyWriter.Write("Hello Writer");
             //Console.WriteLine("Hello, World!");
+            FiggleWriter FWriter = new FiggleWriter();
+            FWriter.Write("Hello Writer");
         }
     }
 }
